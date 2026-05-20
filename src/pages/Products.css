@@ -1310,13 +1310,7 @@
     min-height: 160px !important;
   }
 }
-/* À ajouter à la fin de Products.css */
-.product-image-full {
-  background: #ff000020 !important; /* Fond rouge transparent pour voir la zone */
-}
-
 .product-image-full img {
-  opacity: 1 !important;
-  visibility: visible !important;
-  border: 2px solid red !important;
+  background: white !important;
+  border: none !important;
 }
