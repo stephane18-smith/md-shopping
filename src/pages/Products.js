@@ -1,5 +1,5 @@
-// src/pages/Products.js - Version simplifiée avec recherche qui fonctionne
-import React, { useState, useMemo } from 'react';
+// src/pages/Products.js - Version avec débogage des images
+import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FiEye, FiSearch, FiFilter, FiX, FiPlus } from 'react-icons/fi';
 import { useCart } from '../context/CartContext';
@@ -21,12 +21,10 @@ function Products() {
   const filteredProducts = useMemo(() => {
     let filtered = [...products];
     
-    // Filtre par catégorie
     if (selectedCategory) {
       filtered = filtered.filter(product => product.category === selectedCategory);
     }
 
-    // Filtre par recherche (sur le nom)
     if (searchTerm.trim()) {
       const searchLower = searchTerm.toLowerCase().trim();
       filtered = filtered.filter(product => 
@@ -36,6 +34,23 @@ function Products() {
 
     return filtered;
   }, [searchTerm, selectedCategory]);
+
+  // Débogage des images
+  useEffect(() => {
+    setTimeout(() => {
+      const images = document.querySelectorAll('.product-image-full img');
+      console.log('🔍 Images trouvées:', images.length);
+      images.forEach((img, i) => {
+        console.log(`Image ${i + 1}:`, {
+          src: img.src,
+          visible: img.offsetParent !== null,
+          width: img.offsetWidth,
+          height: img.offsetHeight,
+          computedHeight: window.getComputedStyle(img).height
+        });
+      });
+    }, 1000);
+  }, [filteredProducts]);
 
   const clearFilters = () => {
     setSearchTerm('');
@@ -142,7 +157,17 @@ function Products() {
             {filteredProducts.map((product) => (
               <div key={product.id} className="product-card-full">
                 <div className="product-image-full">
-                  <img src={product.image} alt={product.name} loading="lazy" />
+                  <img 
+                    src={product.image} 
+                    alt={product.name} 
+                    loading="lazy"
+                    style={{ 
+                      width: '100%', 
+                      height: '100%', 
+                      objectFit: 'cover',
+                      display: 'block'
+                    }}
+                  />
                   <div className="product-overlay">
                     <Link to={`/product/${product.id}`} className="overlay-btn">
                       <FiEye /> Voir
