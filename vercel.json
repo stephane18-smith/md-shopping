@@ -11,6 +11,10 @@
       "dest": "/images/$1"
     },
     {
+      "src": "/images/projects/(.*)",
+      "dest": "/images/projects/$1"
+    },
+    {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
