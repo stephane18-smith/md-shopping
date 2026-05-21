@@ -7,6 +7,10 @@
   "framework": "create-react-app",
   "routes": [
     {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
