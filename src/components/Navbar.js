@@ -34,7 +34,7 @@ function Navbar() {
       <div className="nav-container">
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
           {/* Logo image - /images/logo.png */}
-          <img src="/images/logo1.png" alt="MD-Shop" className="logo-image" />
+          <img src="/images/logo.png" alt="MD-Shop" className="logo-image" />
           <span className="logo-text">MD-Shop</span>
         </Link>
 
