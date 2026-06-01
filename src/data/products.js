@@ -351,4 +351,64 @@ export const products = [
     stock: true,
     colors: ["Multicolore"]
   },
+  {
+    id: 29,
+    name: "Ensemble semi lin",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 11000,
+    description: "Haute qualite, taille S à 4XL.",
+    image: "/images/projects/semilin.jpeg",
+    details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 30,
+    name: "Ensemble casablanca",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 11000,
+    description: "Haute qualite, taille S à 4XL.",
+    image: "/images/projects/casablanca.jpeg",
+    details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 31,
+    name: "Ensemble semi lin",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 11000,
+    description: "Haute qualite, taille S à 4XL.",
+    image: "/images/projects/semilin1.jpeg",
+    details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 32,
+    name: "Ensemble Col Mao",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 11000,
+    description: "Haute qualite, taille S à 4XL.",
+    image: "/images/projects/colpao.jpeg",
+    details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 33,
+    name: "Ensemble Culotte",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 11000,
+    description: "Haute qualite, taille S à 4XL.",
+    image: "/images/projects/ensculotte.jpeg",
+    details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
 ];
