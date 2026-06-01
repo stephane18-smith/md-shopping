@@ -410,5 +410,5 @@ export const products = [
     details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
     stock: true,
     colors: ["Multicolore"]
-  },
+  }
 ];
