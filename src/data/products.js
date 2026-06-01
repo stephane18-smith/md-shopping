@@ -275,7 +275,80 @@ export const products = [
     price: 4000,
     description: "Parfum Elysia, senteur élégante et raffinée.",
     image: "/images/projects/parfum6.jpg",
+    details: "Parfum de luxe.",
     stock: true,
     colors: ["Multicolore"]
-  }
+  },
+    {
+    id: 23,
+    name: "Jacket Oversize",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 10000,
+    description: "Haute qualite, taille S à 3XL.",
+    image: "/images/projects/jacketteover.jpeg",
+    details: "Haute qualite, taille S à 3XL, 03 pièces à 27000, à partir de 5 pièces 8000fcfa",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 24,
+    name: "Jacket Oversize",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 10000,
+    description: "Haute qualite, taille S à 3XL.",
+    image: "/images/projects/jacketteover1.jpeg",
+    details: "Haute qualite, taille S à 3XL, 03 pièces à 27000, à partir de 5 pièces 8000fcfa",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 25,
+    name: "Jeans Dior",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 7000,
+    description: "Haute qualite, taille 30 à 36.",
+    image: "/images/projects/pantalon.jpeg",
+    details: "Haute qualite, taille 30 à 36, à partir de 05 pièces 6000, à partir de 10 pièces 5500fcfa. Disponible en plusieurs marque: Hugo Boss, Gucci, Versace...",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 26,
+    name: "Chemisette Zara",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 6000,
+    description: "Haute qualite, taille M à 3XL.",
+    image: "/images/projects/chemisettezara.jpeg",
+    details: "Haute qualite, taille M à 3XL, 03 pièces à 15000, à partir de 10 pièces 4000fcfa. Disponible en plusieurs marque: Hugo Boss, Gucci, Versace...",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 27,
+    name: "Jogging Oversize",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 7000,
+    description: "Haute qualite, taille M à 3XL.",
+    image: "/images/projects/joggingover.jpeg",
+    details: "Haute qualite, à partir de 10 pièces 6000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
+  {
+    id: 28,
+    name: "Jogging coton Lourd",
+    category: "Vêtements",
+    subCategory: "Homme",
+    price: 7000,
+    description: "Haute qualite, taille M à 3XL.",
+    image: "/images/projects/jogginglourd.jpeg",
+    details: "Haute qualite, à partir de 10 pièces 6000fcfa.",
+    stock: true,
+    colors: ["Multicolore"]
+  },
 ];
