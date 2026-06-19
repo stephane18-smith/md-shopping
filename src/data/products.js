@@ -496,7 +496,7 @@ export const products = [
     subCategory: "Femme",
     price: 3000,
     description: "Sandales de bonne qualite,de couleur noir.",
-    image: "/images/projects/sandales marronlouis.jpeg",
+    image: "/images/projects/sandales noirlouis.jpeg",
     details: "Pointure: 37 au 42. Matière: Cuir.",
     stock: true,
     sizes: ["37", "38", "39", "40", "41", "42"],
