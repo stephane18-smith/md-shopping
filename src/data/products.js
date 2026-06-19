@@ -416,12 +416,38 @@ export const products = [
     name: "Sandales Louis Vuitton",
     category: "Chaussures",
     subCategory: "Femme",
-    price: 10000,
+    price: 4000,
     description: "Tennis Louis Vuitton, luxe et élégance.",
     image: "/images/projects/louis marron.jpeg",
-    details: "Pointure: 37 au 45. Matière: Cuir.",
+    details: "Pointure: 37 au 42. Matière: Cuir.",
     stock: true,
     sizes: ["37", "38", "39", "40", "41", "42"],
-    colors: ["Noir", "Marron"]
+    colors: ["Noir", "Marron", "Bleu"]
+  },
+  {
+    id: 35,
+    name: "Sandales Louis Vuitton",
+    category: "Chaussures",
+    subCategory: "Femme",
+    price: 4000,
+    description: "Tennis Louis Vuitton, luxe et élégance.",
+    image: "/images/projects/louis noir.jpeg",
+    details: "Pointure: 37 au 42. Matière: Cuir.",
+    stock: true,
+    sizes: ["37", "38", "39", "40", "41", "42"],
+    colors: ["Noir", "Marron", "Bleu"]
+  },
+  {
+    id: 36,
+    name: "Sandales Louis Vuitton",
+    category: "Chaussures",
+    subCategory: "Femme",
+    price: 4000,
+    description: "Tennis Louis Vuitton, luxe et élégance.",
+    image: "/images/projects/louis bleu.jpeg",
+    details: "Pointure: 37 au 42. Matière: Cuir.",
+    stock: true,
+    sizes: ["37", "38", "39", "40", "41", "42"],
+    colors: ["Noir", "Marron", "Bleu"]
   },
 ];
