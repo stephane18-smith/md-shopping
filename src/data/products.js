@@ -410,5 +410,18 @@ export const products = [
     details: "Haute qualite, 03 ensemble à 28000. à partir de 10 pièces 8000fcfa.",
     stock: true,
     colors: ["Multicolore"]
-  }
+  },
+  {
+    id: 34,
+    name: "Sandales Louis Vuitton",
+    category: "Chaussures",
+    subCategory: "Femme",
+    price: 10000,
+    description: "Tennis Louis Vuitton, luxe et élégance.",
+    image: "/images/projects/louis marron.jpeg",
+    details: "Pointure: 37 au 45. Matière: Cuir.",
+    stock: true,
+    sizes: ["37", "38", "39", "40", "41", "42"],
+    colors: ["Noir", "Marron"]
+  },
 ];
